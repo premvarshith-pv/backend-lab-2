@@ -1,0 +1,29 @@
+{
+  "name": "lab-02-sqlite-crud",
+  "version": "1.0.0",
+  "description": "Lab 2: SQLite database and CRUD routes - Aurora Deemed To Be University",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node tests/api-tests.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "sqlite3",
+    "crud",
+    "rest-api"
+  ],
+  "author": "Prem Varshith (252U1R1200)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
+
